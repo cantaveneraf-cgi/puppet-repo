@@ -1,1 +1,1 @@
-hiera_include('classes')
+include(lookup('classes'), Array[String], 'unique')
